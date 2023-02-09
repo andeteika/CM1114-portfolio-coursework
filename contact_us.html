@@ -12,12 +12,25 @@
 
         <!-- BODY OF THE PAGE -->
         <main>
-            <article>
-                <section></section>
-                <section></section>
-            </article>
-
-            <aside></aside>
+            <div>
+                <!-- Name -->
+                <label for="name">Name: </label>
+                <input type="text" id="name" name="name"><br>
+                <!-- Email -->
+                <label for="email">Email: </label>
+                <input type="email" id="email" name="email"><br>
+                <!-- Membership choice -->
+                <label for="membership">Membership: </label>
+                <input type="radio" name="member"><label for="member">I am a member</label>
+                <input type="radio" name="member"><label for="member">I am NOT a member</label><br>
+                <!-- Description -->
+                <textarea rows="10" cols="40">Enter a description of your enquiry...</textarea><br>
+                <!-- File -->
+                <label for="file">Enter relevant file: </label>
+                <input type="file" name="file" id="file"><br>
+                <!-- Submit Button -->
+                <input type="submit" name="submit">
+            </div>
         </main>
         
         <!-- FOOTER OF THE PAGE -->
