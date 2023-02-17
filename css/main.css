@@ -1,0 +1,86 @@
+/** Colors definition */
+:root {
+    --text-color: #000000;
+    --text-color-secondary: #FFFFFF;
+
+    --reading-color-background:#FFFFFF;
+    --background-color: #EDF2F4;
+
+    --accent-color: #2B2D42;
+    --accent-color-secondary: #8D99AE;
+
+    --main-color: #ff9f1c;
+    --main-color-secondary: #fe7f2d;
+}
+
+body {
+    background-color: var(--background-color);
+}
+header {
+    background-color: var(--reading-color-background);
+    border-radius: 10px 10px 0px 0px;
+}
+
+/** Navigation Bar */
+nav ul {
+    margin: 0px;
+    padding: 0px;
+}
+nav li {
+    border: 2px solid var(--main-color-secondary);
+    background-color: var(--main-color);
+    list-style-type: none;
+    float: left;
+}
+nav li a {
+    color: var(--text-color-secondary);
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav li a:hover {
+    background-color: var(--accent-color);
+}
+
+
+/** Headers and paragraphs */
+h1, h2, h3, h4, h5, h6, p, li {
+    font-family: Helvetica, sans-serif, Arial, Geneva, Verdana;
+}
+h1 {font-size: 38px;}
+h3 {font-size: 22px;}
+p {font-size: 15px;}
+
+/** Divs and containers */
+main{
+    background-color: var(--reading-color-background);
+}
+
+aside {
+    background-color: var(--reading-color-background);
+    border-radius: 10px;
+}
+
+footer {
+    color: var(--text-color-secondary);
+    background-color: var(--main-color-secondary);
+}
+
+/** Tables Elements */
+table {
+    font-family: Helvetica, sans-serif, Arial, Geneva, Verdana;
+    border-collapse: collapse;
+}
+th {
+    background-color: var(--accent-color-secondary);
+}
+th, td {
+    border: 1px solid var(--accent-color);
+}
+tr:nth-child(even) {
+    background-color: var(--background-color);
+}
+tr:hover {
+    background-color: var(--main-color);
+}

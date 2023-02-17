@@ -1,49 +1,55 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Contact Us - TypingSOC</title>
-    </head>
-    <body>
-        <!-- HEAD OF THE PAGE -->
-        <header>
-            <h1>TypingSOC</h1>
-            <nav></nav>
-        </header>
 
-        <!-- BODY OF THE PAGE -->
-        <main>
-            <div>
-                <!-- Name -->
-                <label for="name">Name: </label>
-                <input type="text" id="name" name="name"><br>
-                <!-- Email -->
-                <label for="email">Email: </label>
-                <input type="email" id="email" name="email"><br>
-                <!-- Membership choice -->
-                <label for="membership">Membership: </label>
-                <input type="radio" name="membership" id="member"><label for="membership">I am a member</label>
-                <input type="radio" name="membership" id="not_memeber"><label for="membership">I am NOT a member</label><br>
-                <!-- Description -->
-                <textarea rows="10" cols="40" id="description" id="description">Enter a description of your enquiry...
-                </textarea><br>
-                <!-- File -->
-                <label for="file">Enter relevant file: </label>
-                <input type="file" name="file" id="file"><br>
-                <!-- Submit Button -->
-                <input type="submit" name="submit" id="submit">
-            </div>
-        </main>
-        
-        <!-- FOOTER OF THE PAGE -->
-        <footer>
+<head>
+    <title>Contact Us - TypingSOC</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <!-- HEAD OF THE PAGE -->
+    <header>
+        <h1>TypingSOC</h1>
+        <nav>
             <div id="sitemap">
                 <ul>
-                    <li><a href="./index.html">Homepage</a></li>  
+                    <li><a href="./index.html">Homepage</a></li>
                     <li><a href="./img_gallery.html">Gallery</a></li>
                     <li><a href="./event_calendar.html">Calendar</a></li>
                     <li><a href="./current_members.html">Members</a></li>
                 </ul>
             </div>
-        </footer>
-    </body>
+        </nav>
+    </header>
+
+    <!-- BODY OF THE PAGE -->
+    <main>
+        <div>
+            <!-- Name -->
+            <label for="name">Name: </label>
+            <input type="text" id="name" name="name"><br>
+            <!-- Email -->
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="email"><br>
+            <!-- Membership choice -->
+            <label for="membership">Membership: </label>
+            <input type="radio" name="membership" id="member"><label for="membership">I am a member</label>
+            <input type="radio" name="membership" id="not_memeber"><label for="membership">I am NOT a member</label><br>
+            <!-- Description -->
+            <textarea rows="10" cols="40" id="description" id="description">Enter a description of your enquiry...
+                </textarea><br>
+            <!-- File -->
+            <label for="file">Enter relevant file: </label>
+            <input type="file" name="file" id="file"><br>
+            <!-- Submit Button -->
+            <input type="submit" name="submit" id="submit">
+        </div>
+    </main>
+
+    <!-- FOOTER OF THE PAGE -->
+    <footer>
+        <p>Copyright Adam Bisinella</p>
+    </footer>
+</body>
+
 </html>
