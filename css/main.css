@@ -15,46 +15,77 @@
 
 body {
     background-color: var(--background-color);
+    font-family: Helvetica, sans-serif, Arial, Geneva, Verdana;
 }
 header {
     background-color: var(--reading-color-background);
     border-radius: 10px 10px 0px 0px;
+    padding: 15px 20px 20px 20px;
+}
+
+#logo {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-right: 15px;
+}
+
+#title {
+    display: inline;
 }
 
 /** Navigation Bar */
+nav{
+    width: 70%;
+    float: right;
+}
+
 nav ul {
     margin: 0px;
     padding: 0px;
+    overflow: hidden;
 }
 nav li {
     border: 2px solid var(--main-color-secondary);
     background-color: var(--main-color);
     list-style-type: none;
     float: left;
+    width: 15%;
+    padding: 15px;
 }
 nav li a {
     color: var(--text-color-secondary);
-    display: block;
-    text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
 }
-nav li a:hover {
-    background-color: var(--accent-color);
+nav li:hover {
+    background-color: var(--main-color-secondary);
 }
 
 
 /** Headers and paragraphs */
-h1, h2, h3, h4, h5, h6, p, li {
-    font-family: Helvetica, sans-serif, Arial, Geneva, Verdana;
-}
 h1 {font-size: 38px;}
 h3 {font-size: 22px;}
 p {font-size: 15px;}
 
+/** Main */
+main {
+    padding: 50px;
+}
+
+#welcome {
+    width: 40%;
+    float: left;
+}
+
+#twitter {
+    float: right;
+}
+
 /** Divs and containers */
 main{
     background-color: var(--reading-color-background);
+    margin-top: 30px;
+    overflow: auto;
 }
 
 aside {
