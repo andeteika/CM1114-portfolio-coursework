@@ -1,9 +1,15 @@
+/** Main */
 #welcome {
     width: 40%;
     float: left;
 }
 
 #twitter {
-    width: 40%;
     float: right;
+    padding: 30px;
+}
+
+/** Carousel */
+#home-carousel a{
+    text-decoration: none;
 }

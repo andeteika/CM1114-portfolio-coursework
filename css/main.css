@@ -19,8 +19,8 @@ body {
 }
 header {
     background-color: var(--reading-color-background);
-    border-radius: 10px 10px 0px 0px;
     padding: 15px 20px 20px 20px;
+    border: #000000 solid 1px;
 }
 
 #logo {
@@ -68,34 +68,27 @@ h3 {font-size: 22px;}
 p {font-size: 15px;}
 
 /** Main */
-main {
-    padding: 50px;
-}
-
-#welcome {
-    width: 40%;
-    float: left;
-}
-
-#twitter {
-    float: right;
-}
-
-/** Divs and containers */
 main{
     background-color: var(--reading-color-background);
-    margin-top: 30px;
+    padding-top: 30px;
+    padding: 50px;
     overflow: auto;
+    border: #000000 solid 1px;
 }
+
+
+/** Divs and containers */
 
 aside {
     background-color: var(--reading-color-background);
     border-radius: 10px;
+    border: #000000 1px solid;
 }
 
 footer {
     color: var(--text-color-secondary);
     background-color: var(--main-color-secondary);
+    border: #000000 solid 1px;
 }
 
 /** Tables Elements */
@@ -115,3 +108,4 @@ tr:nth-child(even) {
 tr:hover {
     background-color: var(--main-color);
 }
+
